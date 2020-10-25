@@ -15,7 +15,7 @@ class Solution(object):
             
         return hsh[n]
 
-        #O(n) bottom down approach
+        #O(n) top down approach
         if n in m.keys():
             return m[n]
     
